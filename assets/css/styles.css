@@ -1,0 +1,25 @@
+/* universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+  }
+
+/* body styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styles */
+header{
+
+}
+
+/* hero styles */
+.hero{
+
+}
