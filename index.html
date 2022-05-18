@@ -1,116 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>Ian Zyvith Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/styles.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
   
   </head>
 
-  <body>
+<body>
+    
+<!-- header -->
+<header>
+    <h1>
+        <a href="index.html">Ian Zyvith</a>
+    </h1>
 
-      <!-- header -->
-      <header>
+    <!-- header navigation -->
+    <nav>
+      <ul>
+        <li>
+            <a href="#about-me">About Me</a>
+        </li>
 
-          <h1>
-            <a href="index.html">Ian Zyvith</a>
-          </h1>
+        <li>
+            <a href="#work">Work</a>
+        </li>
 
-          <!-- navigation -->
-          <nav>
-              <ul>
-                  <li>
-                      <a href="#about-me">About Me</a>
-                  </li>
+        <li>
+            <a href="#contact-me">Contact Me</a>
+        </li>
 
-                  <li>
-                      <a href="#my-work">My Work</a>
-                  </li>
+        <li>
+            <a href="#resume">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- hero -->
+  <section class="hero">
 
-                  <li>
-                      <a href="#contact-me">Contact Me</a>
-                  </li>
+    <div class="hero-form">
+      <img src="./assets/images/bio-pic.jpeg" alt="Ian Zyvith Bio Picture" />
+    </div>
+    
+    <div class="hero-cta">
+      <h2>Creativity and Innovation</h2>
+    </div>
 
-                  <li>
-                      <a href="#resume">Resume</a>
-                  </li>
-              </ul>
-          </nav>
+  </section>
+  
+  <!-- about me -->
+  <section id="about-me" class="intro">
 
-      </header>
+    <div class="flex-row">
+    <h2 class="section-title primary-border">About<br />Me</h2>
+    </div>
 
-      <!-- hero -->
-      <section class="hero">
-              <img src="./assets/images/bio-pic.jpeg" alt="Ian Zyvith Bio Picture" />
-              <h2>Creativity and Innovation</h2>
-      </section>
+    <div class="flex-row">
+      <p>
+        I am a creative and knowledge driven individual who excels at problem solving. I graduated from Rutgers University with a Bachelors Degree in Mechanical Engineering and am now trying to increase the value of my skillsets with a Coding and Web Development Bootcamp.
+        <br />
+        In my free time I enjoy many different activities such as Ice Hockey, Rock Climbing, Snowboarding, Computer Design, Woodworking and Model Building. 
+      </p>
+    </div>
+  </section>
+  
+  <!-- work -->
+  <section id="work" class="steps">
 
-      <!-- about me -->
-      <article id="about-me" class="about-me">
-          <h2 class="section-title">About Me</h2>
-          <p>
-              I am a creative and knowledge driven individual who excels at problem solving. I graduated from Rutgers University with a Bachelors Degree in Mechanical Engineering and am now trying to increase the value of my skillsets with a Coding and Web Development Bootcamp.
-              <br />
-              In my free time I enjoy many different activities such as Ice Hockey, Rock Climbing, Snowboarding, Computer Design, Woodworking and Model Building. 
-          </p>
-      </article>
+    <div class="flex-row">
+    <h2 class="section-title primary-border">Work</h2>
+    </div>
 
-      <!-- work -->
-      <section id="my-work" class="my-work">
-          <h2 class="section-title">My Work</h2>
+    <!-- projects -->
+    <article class="projects">
 
-          <!-- projects -->
-          <aside class="projects">
-              <h3>Surf Report</h3>
-              <p>MERN Stack</p>
+      <!-- header project -->
+      <aside class="surf-report">
+        <h3>Surf Report</h3>
+        <p>MERN Stack</p>
+      </aside>
+
+      <!-- other projects -->
+      <div class="other-projects">
+
+        <!-- first two -->
+        <div class="project-group-1">
+          <aside class="led-wall">
+            <h3>LED Wall</h3>
+            <p>Node/IoT</p>
+          </aside>
+  
+          <aside class="calc">
+            <h3>Calculator</h3>
+            <p>React/Java Script/CSS</p>
+          </aside>
+        </div>
+
+        <!-- second two -->
+        <div class="project-group-2">
+          <aside class="pastel-puzzles">
+            <h3>Pastel Puzzels</h3>
+            <p>MERN Stack</p>
           </aside>
 
-          <aside class="projects">
-              <h3>LED Wall</h3>
-              <p>Node/IoT</p>
+          <aside class="run-buddy">
+            <h3>Run Buddy</h3>
+            <p>HTML/CSS</p>
           </aside>
+        </div>
 
-          <aside class="projects">
-              <h3>Calculator</h3>
-              <p>React/Java Script/CSS</p>
-          </aside>
+      </div>
 
-          <aside class="projects">
-              <h3>Pastel Puzzels</h3>
-              <p>MERN Stack</p>
-          </aside>
+    </article>
+    
 
-          <aside class="projects">
-              <h3>Run Buddy</h3>
-              <p>HTML/CSS</p>
-          </aside>
+  </section>
+  
+  <!-- footer/contact me -->
+  <Footer id="contact-me" class="contact-me">
+    <h2 class="section-title">Contact<br />Me</h2>
 
-      </section>
+    <!-- footer navigation -->
+    <nav>
+      <ul>
+        <li>
+            <a href="tel:9089674003" target="_blank">908-967-4003</a>
+        </li>
 
-      <!-- footer/contact me -->
-      <Footer id="contact-me" class="contact-me">
-          <h2>Contact Me</h2>
+        <li>
+            <a href="mailto:izyvith25@gmail.com" target="_blank">izyvith25@gmail.com</a>
+        </li>
 
-          <ul>
-              <li>
-                  <a href="tel:9089674003" target="_blank">908-967-4003</a>
-              </li>
+        <li>
+            <a href="https://github.com/ianzyvith" target="_blank">GitHub</a>
+        </li>
 
-              <li>
-                  <a href="mailto:izyvith25@gmail.com" target="_blank">izyvith25@gmail.com</a>
-              </li>
+        <li>
+            <a href="https://www.linkedin.com/in/ian-zyvith-688321206/" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+    </nav>
 
-              <li>
-                  <a href="https://github.com/ianzyvith" target="_blank">GitHub</a>
-              </li>
+  </Footer>
 
-              <li>
-                  <a href="https://www.linkedin.com/in/ian-zyvith-688321206/" target="_blank">LinkedIn</a>
-              </li>
-          </ul>
+</body>
 
-      </Footer>
-
-  </body>
+</html>
