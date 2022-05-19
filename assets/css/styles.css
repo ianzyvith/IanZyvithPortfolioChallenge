@@ -73,13 +73,13 @@ header nav ul li a{
     background-image: url(../images/hero-bg.jpeg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-position: 10%;
+    background-position-y: 30%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     position: relative;
+    padding-top: 15vw;
 }
 
 .hero-tagline{
@@ -99,16 +99,6 @@ header nav ul li a{
     background-color: var(--secondary-color);
 }
 
-.hero-img{
-    padding: 10px;
-    width: 40%;
-    margin: 0;
-}
-
-.hero-img img{
-    width: 30%;
-}
-
 /* group titles */
 .section-title{
     font-size: 48px;
@@ -123,6 +113,20 @@ header nav ul li a{
 .about-me {
     display: flex;
     justify-content: space-between;
+}
+
+.bio-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-img {
+    display: flex;
+    justify-content: center;
+}
+
+.bio-img img{
+    width: 10%;
 }
 
 .about-me p {
