@@ -161,6 +161,11 @@ header nav ul li a{
     border: 10px solid;
     position: relative;
     margin-bottom: 20px;
+    opacity: 90%;
+}
+
+.surf-report:hover {
+    opacity: 100%;
 }
 
 .project-text {
@@ -188,6 +193,11 @@ header nav ul li a{
     position: relative;
     margin-right: 10px;
     margin-bottom: 20px;
+    opacity: 90%;
+}
+
+.led-wall:hover {
+    opacity: 100%;
 }
 
 .calc {
@@ -200,6 +210,11 @@ header nav ul li a{
     position: relative;
     margin-left: 10px;
     margin-bottom: 20px;
+    opacity: 90%;
+}
+
+.calc:hover {
+    opacity: 100%;
 }
 
 .pastel-puzzles {
@@ -211,6 +226,11 @@ header nav ul li a{
     border: 10px solid;
     position: relative;
     margin-right: 10px;
+    opacity: 90%;
+}
+
+.pastel-puzzles:hover {
+    opacity: 100%;
 }
 
 .run-buddy {
@@ -222,6 +242,11 @@ header nav ul li a{
     border: 10px solid;
     position: relative;
     margin-left: 10px;
+    opacity: 90%;
+}
+
+.run-buddy:hover {
+    opacity: 100%;
 }
 
 /* Footer Style */
