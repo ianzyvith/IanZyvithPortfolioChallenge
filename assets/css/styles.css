@@ -228,9 +228,10 @@ header nav ul li a{
     opacity: 100%;
 }
 
-.pastel-puzzles {
-    background-image: url(../images/puzzle.webp);
+.movie-madness {
+    background-image: url(../images/Screen\ Shot\ 2022-06-23\ at\ 3.51.17\ PM.png);
     background-position: center;
+    background-size: 110%;
     color: var(--secondary-color);
     height: 200px;
     width: 225%;
@@ -240,7 +241,7 @@ header nav ul li a{
     opacity: 90%;
 }
 
-.pastel-puzzles:hover {
+.movie-madness:hover {
     opacity: 100%;
 }
 
