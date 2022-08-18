@@ -194,9 +194,10 @@ header nav ul li a{
     justify-content: space-between;
 }
 
-.led-wall {
-    background-image: url(../images/led-wall.jpeg);
+.watch-it-later {
+    background-image: url(../images/watchitlater.png);
     background-position: center;
+    background-size: 100%;
     color: var(--secondary-color);
     height: 200px;
     width: 225%;
@@ -207,7 +208,7 @@ header nav ul li a{
     opacity: 90%;
 }
 
-.led-wall:hover {
+.watch-it-later:hover {
     opacity: 100%;
 }
 
